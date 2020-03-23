@@ -12,4 +12,5 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= r
+//= require turbolinks
+//= require b
