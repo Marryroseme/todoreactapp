@@ -1,1 +1,2 @@
-class Application
+class ApplicationController < ActionController::Base
+  #
