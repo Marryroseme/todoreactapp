@@ -1,2 +1,2 @@
 class CryptosController < ApplicationController
-  before_
+  before_action :set_crypto, only: [:show, :edit, :update, :
