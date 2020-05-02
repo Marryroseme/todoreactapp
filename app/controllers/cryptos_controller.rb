@@ -7,4 +7,5 @@ class CryptosController < ApplicationController
   def index
     @cryptos = Crypto.all
     require 'net/http'
-   
+    require 'json'
+    @url = 'https:/
