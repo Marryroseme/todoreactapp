@@ -5,4 +5,6 @@ class CryptosController < ApplicationController
   # GET /cryptos
   # GET /cryptos.json
   def index
-    @crypto
+    @cryptos = Crypto.all
+    require 'net/http'
+   
