@@ -12,4 +12,8 @@ class CryptosController < ApplicationController
     @url = URI(@url)
     @response = Net::HTTP.get(@url)
     @coins_search = JSON.parse(@response)
-    @profit_loss =
+    @profit_loss = 0
+  end
+
+  # GET /cryptos/1
+  # GET /
