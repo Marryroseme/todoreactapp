@@ -16,4 +16,6 @@ class CryptosController < ApplicationController
   end
 
   # GET /cryptos/1
-  # GET /
+  # GET /cryptos/1.json
+  def show
+    @crypto
