@@ -18,4 +18,5 @@ class CryptosController < ApplicationController
   # GET /cryptos/1
   # GET /cryptos/1.json
   def show
-    @crypto
+    @cryptos = Crypto.all
+    require 
