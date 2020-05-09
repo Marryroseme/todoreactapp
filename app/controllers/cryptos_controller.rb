@@ -19,4 +19,6 @@ class CryptosController < ApplicationController
   # GET /cryptos/1.json
   def show
     @cryptos = Crypto.all
-    require 
+    require 'net/http'
+    require 'json'
+    @url = 
