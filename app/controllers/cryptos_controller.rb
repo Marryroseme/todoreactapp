@@ -21,4 +21,5 @@ class CryptosController < ApplicationController
     @cryptos = Crypto.all
     require 'net/http'
     require 'json'
-    @url = 
+    @url = 'https://api.coinmarketcap.com/v1/ticker/'
+ 
