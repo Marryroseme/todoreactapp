@@ -32,4 +32,8 @@ class CryptosController < ApplicationController
     @crypto = Crypto.new
   end
 
-  # 
+  # GET /cryptos/1/edit
+  def edit
+    
+  end
+  
