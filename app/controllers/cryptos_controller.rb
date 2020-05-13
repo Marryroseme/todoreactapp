@@ -37,3 +37,7 @@ class CryptosController < ApplicationController
     
   end
   
+
+
+  # POST /cryptos
+  # POST /cryptos
