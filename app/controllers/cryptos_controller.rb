@@ -40,4 +40,6 @@ class CryptosController < ApplicationController
 
 
   # POST /cryptos
-  # POST /cryptos
+  # POST /cryptos.json
+  def create
+    @crypto = Crypto.n
