@@ -28,4 +28,8 @@ class CryptosController < ApplicationController
   end
 
   # GET /cryptos/new
-  
+  def new
+    @crypto = Crypto.new
+  end
+
+  # 
