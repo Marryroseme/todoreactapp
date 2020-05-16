@@ -46,4 +46,5 @@ class CryptosController < ApplicationController
 
     respond_to do |format|
       if @crypto.save
-        format.html { redirect_to @crypto, notice: 'Crypto w
+        format.html { redirect_to @crypto, notice: 'Crypto was successfully created.' }
+        for
