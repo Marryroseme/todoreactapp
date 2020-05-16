@@ -42,4 +42,6 @@ class CryptosController < ApplicationController
   # POST /cryptos
   # POST /cryptos.json
   def create
-    @crypto = Crypto.n
+    @crypto = Crypto.new(crypto_params)
+
+    respond_to do 
