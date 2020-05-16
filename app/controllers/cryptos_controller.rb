@@ -44,4 +44,6 @@ class CryptosController < ApplicationController
   def create
     @crypto = Crypto.new(crypto_params)
 
-    respond_to do 
+    respond_to do |format|
+      if @crypto.save
+        form
