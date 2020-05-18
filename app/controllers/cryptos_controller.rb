@@ -49,4 +49,5 @@ class CryptosController < ApplicationController
         format.html { redirect_to @crypto, notice: 'Crypto was successfully created.' }
         format.json { render :show, status: :created, location: @crypto }
       else
-        format.h
+        format.html { render :new }
+    
