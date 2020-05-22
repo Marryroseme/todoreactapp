@@ -50,4 +50,9 @@ class CryptosController < ApplicationController
         format.json { render :show, status: :created, location: @crypto }
       else
         format.html { render :new }
-        format.json { render json: @crypto.errors, status: :unprocessa
+        format.json { render json: @crypto.errors, status: :unprocessable_entity }
+      end
+    end
+  end
+
+ 
