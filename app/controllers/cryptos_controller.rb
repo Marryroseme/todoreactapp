@@ -55,4 +55,5 @@ class CryptosController < ApplicationController
     end
   end
 
- 
+  # PATCH/PUT /cryptos/1
+  # PATCH/PUT /crypto
