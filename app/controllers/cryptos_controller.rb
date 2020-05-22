@@ -56,4 +56,6 @@ class CryptosController < ApplicationController
   end
 
   # PATCH/PUT /cryptos/1
-  # PATCH/PUT /crypto
+  # PATCH/PUT /cryptos/1.json
+  def update
+    respond_to do |format
