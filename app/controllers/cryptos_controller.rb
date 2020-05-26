@@ -60,4 +60,4 @@ class CryptosController < ApplicationController
   def update
     respond_to do |format|
       if @crypto.update(crypto_params)
-        format.html { redirect_to @crypto, notic
+        format.html { redirect_to @crypto, notice: 'Crypto was successfully update
