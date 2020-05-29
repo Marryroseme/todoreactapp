@@ -64,3 +64,4 @@ class CryptosController < ApplicationController
         format.json { render :show, status: :ok, location: @crypto }
       else
         format.html { render :edit }
+        format.json { render json: @c
