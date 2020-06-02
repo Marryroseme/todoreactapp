@@ -69,4 +69,5 @@ class CryptosController < ApplicationController
     end
   end
 
-  # DELETE /c
+  # DELETE /cryptos/1
+  # DELETE /cryptos/1.jso
