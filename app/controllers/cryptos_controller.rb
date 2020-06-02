@@ -70,4 +70,7 @@ class CryptosController < ApplicationController
   end
 
   # DELETE /cryptos/1
-  # DELETE /cryptos/1.jso
+  # DELETE /cryptos/1.json
+  def destroy
+    @crypto.destroy
+    respond
