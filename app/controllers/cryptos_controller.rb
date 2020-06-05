@@ -73,4 +73,5 @@ class CryptosController < ApplicationController
   # DELETE /cryptos/1.json
   def destroy
     @crypto.destroy
-    respond
+    respond_to do |format|
+      format.html { redire
