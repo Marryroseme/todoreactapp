@@ -77,4 +77,7 @@ class CryptosController < ApplicationController
       format.html { redirect_to cryptos_url, notice: 'Crypto was successfully destroyed.' }
       format.json { head :no_content }
     end
-  en
+  end
+
+  private
+    # Use callbacks to
