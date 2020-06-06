@@ -80,4 +80,4 @@ class CryptosController < ApplicationController
   end
 
   private
-    # Use callbacks to
+    # Use callbacks to share common setup or constraints betwe
