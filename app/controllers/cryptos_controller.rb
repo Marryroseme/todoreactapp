@@ -84,3 +84,5 @@ class CryptosController < ApplicationController
     def set_crypto
       @crypto = Crypto.find(params[:id])
     end
+
+    # Never trust parameters from the scary in
