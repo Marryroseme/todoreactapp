@@ -87,4 +87,5 @@ class CryptosController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def crypto_params
-      params.require(:crypto).permit(:symbol, :user_i
+      params.require(:crypto).permit(:symbol, :user_id, :cost_per, :amount_owned)
+    en
