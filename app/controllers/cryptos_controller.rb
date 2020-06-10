@@ -92,4 +92,4 @@ class CryptosController < ApplicationController
     
     def correct_user
       @correct = current_user.cryptos.find_by(id: params[:id])
-      redirect_to crypt
+      redirect_to cryptos_path, notice: "Not Authorized
