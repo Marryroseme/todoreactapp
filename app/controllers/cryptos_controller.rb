@@ -91,4 +91,4 @@ class CryptosController < ApplicationController
     end
     
     def correct_user
-      @c
+      @correct = current_user.cryptos.find_b
