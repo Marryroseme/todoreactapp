@@ -91,4 +91,5 @@ class CryptosController < ApplicationController
     end
     
     def correct_user
-      @correct = current_user.cryptos.find_b
+      @correct = current_user.cryptos.find_by(id: params[:id])
+      redirect_to crypt
