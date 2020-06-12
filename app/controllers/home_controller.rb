@@ -25,3 +25,16 @@ class HomeController < ApplicationController
     
     @symbol = params[:sym]
     @name = params[:curr_name]
+   
+    
+    if @name
+      @name = @name.capitalize
+    end
+    
+    if @name == ""
+      @name = "You forgot to type something."
+    end
+  end
+end
+    
+    
