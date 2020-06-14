@@ -1,1 +1,3 @@
-class Crypto < A
+class Crypto < ActiveRecord::Base
+    belongs_to :user
+end
