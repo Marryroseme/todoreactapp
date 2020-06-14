@@ -1,0 +1,1 @@
+class Crypto < A
