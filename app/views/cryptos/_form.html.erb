@@ -1,2 +1,3 @@
 <%= form_for(@crypto) do |f| %>
-  <% if 
+  <% if @crypto.errors.any? %>
+    <div id="error_
