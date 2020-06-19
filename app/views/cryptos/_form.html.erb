@@ -3,4 +3,5 @@
     <div id="error_explanation">
       <h2><%= pluralize(@crypto.errors.count, "error") %> prohibited this crypto from being saved:</h2>
 
-      <ul
+      <ul>
+      <% @crypto.errors.full_messages.e
