@@ -1,4 +1,6 @@
 <%= form_for(@crypto) do |f| %>
   <% if @crypto.errors.any? %>
     <div id="error_explanation">
-      <h2><%= pluralize(@crypto.errors.count, "error") %> prohibited
+      <h2><%= pluralize(@crypto.errors.count, "error") %> prohibited this crypto from being saved:</h2>
+
+      <ul
