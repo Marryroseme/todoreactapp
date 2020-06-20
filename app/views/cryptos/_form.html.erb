@@ -4,4 +4,5 @@
       <h2><%= pluralize(@crypto.errors.count, "error") %> prohibited this crypto from being saved:</h2>
 
       <ul>
-      <% @crypto.errors.full_messages.e
+      <% @crypto.errors.full_messages.each do |message| %>
+        <li><%= m
