@@ -21,4 +21,5 @@
     <% @cryptos.each do |crypto| %>
       <% if crypto.user_id == current_user.id %>
         <% if crypto.symbol %>
-          <% crypto.symbol = crypt
+          <% crypto.symbol = crypto.symbol.upcase %>
+        <% end %>
