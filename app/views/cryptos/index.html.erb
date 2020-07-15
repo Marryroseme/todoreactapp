@@ -19,4 +19,5 @@
 
   <tbody>
     <% @cryptos.each do |crypto| %>
-      <% if crypto.user_id == current_us
+      <% if crypto.user_id == current_user.id %>
+        <% if crypto
