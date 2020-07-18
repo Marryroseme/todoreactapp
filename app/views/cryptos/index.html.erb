@@ -24,4 +24,5 @@
           <% crypto.symbol = crypto.symbol.upcase %>
         <% end %>
         <tr>
-          <% for x in @coins
+          <% for x in @coins_search %>
+              <% if crypto
