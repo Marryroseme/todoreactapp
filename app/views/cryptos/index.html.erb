@@ -25,4 +25,5 @@
         <% end %>
         <tr>
           <% for x in @coins_search %>
-              <% if crypto
+              <% if crypto.symbol == x["symbol"] %>
+            
