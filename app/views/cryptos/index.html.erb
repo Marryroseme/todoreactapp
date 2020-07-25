@@ -27,4 +27,5 @@
           <% for x in @coins_search %>
               <% if crypto.symbol == x["symbol"] %>
                   <td><%= link_to x["name"], crypto %></td>
-                  <td><%= number_t
+                  <td><%= number_to_currency(x["price_usd"].to_d) %></td>
+     
