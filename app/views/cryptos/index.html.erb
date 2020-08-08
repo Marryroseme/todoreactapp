@@ -37,4 +37,5 @@
                   <% @profit_loss += (x["price_usd"].to_d * crypto.amount_owned) - (crypto.cost_per*crypto.amount_owned) %>
               <% end %>
           <% end %>
-    
+          <td>$<%= crypto.cost_per %></td>
+     
