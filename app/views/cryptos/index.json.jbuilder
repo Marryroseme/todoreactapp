@@ -1,1 +1,1 @@
-json
+json.array! @cryptos, partial: 'cry
