@@ -14,4 +14,5 @@
     <h3 class="panel-title">Edit <%= resource_name.to_s.humanize %></h3>
   </div>
 
-<%= form_for(resource, as: resource_name, url: registration_path(resource_name), html: { method: :put }) do |f
+<%= form_for(resource, as: resource_name, url: registration_path(resource_name), html: { method: :put }) do |f| %>
+  <%= render "devise/shared/err
