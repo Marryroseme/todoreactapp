@@ -21,3 +21,5 @@
     <%= f.label :email %><br />
     <%= f.email_field :email, autofocus: true, autocomplete: "email", class: "form-control" %>
   </div></p>
+  
+  <% if devise_mapping.confirmable? && r
