@@ -32,4 +32,5 @@
 </div>
   <div class="panel-footer">
   <%- if controller_name != 'sessions' %>
-    <%= link_to "Or maybe you want to log in?",
+    <%= link_to "Or maybe you want to log in?", new_session_path(resource_name) %><br />
+  <% end 
