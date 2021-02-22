@@ -18,4 +18,5 @@
       <%= f.password_field :password, autocomplete: "current-password", class: "form-control" %>
     </div>
   
-    <% if devi
+    <% if devise_mapping.rememberable? %>
+      <div class="
