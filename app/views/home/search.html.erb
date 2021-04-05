@@ -1,0 +1,17 @@
+
+<h3> Cryptocurrency search </h3>
+
+    <%= form_tag home_search_path, :method => 'POST' do %>
+        <%= text_field_tag "curr_name", nil, placeholder: "Enter Crypto Name", size: 50 %>
+        <%= submit_tag "Search Stock Quote" %>
+    <% end %>
+    </br>
+    
+    <% if @name %>
+        <% for x in @coins_search %>
+            <% if @name == x["name"] %>
+                <p><%= x["name"] %>: $<%= x["price_usd"]%></p>
+                Rank: <%= x["rank"] %>
+               <% end %>
+        <% end %>
+    <% end %>
