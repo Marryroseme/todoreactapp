@@ -1,1 +1,3 @@
-#!/usr/b
+#!/usr/bin/env ruby
+
+# This file loads spring
