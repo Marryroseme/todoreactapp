@@ -4,3 +4,5 @@
 # It gets overwritten when you run the `spring binstub` command.
 
 unless defined?(Spring)
+  require 'rubygems'
+  require 'bun
