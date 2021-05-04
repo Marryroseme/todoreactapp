@@ -7,4 +7,5 @@ unless defined?(Spring)
   require 'rubygems'
   require 'bundler'
 
-  lockfile = Bundler::LockfileParser.new(Bundler.default_
+  lockfile = Bundler::LockfileParser.new(Bundler.default_lockfile.read)
+  spring = lockfile.s
