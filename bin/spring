@@ -5,4 +5,6 @@
 
 unless defined?(Spring)
   require 'rubygems'
-  require 'bun
+  require 'bundler'
+
+  lockfile = Bundler::Lo
