@@ -8,4 +8,6 @@ unless defined?(Spring)
   require 'bundler'
 
   lockfile = Bundler::LockfileParser.new(Bundler.default_lockfile.read)
-  spring = lockfile.specs.detect { |spec| spec.name == "spring"
+  spring = lockfile.specs.detect { |spec| spec.name == "spring" }
+  if spring
+    Gem.use_paths Gem.dir, B
