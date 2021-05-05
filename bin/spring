@@ -8,4 +8,4 @@ unless defined?(Spring)
   require 'bundler'
 
   lockfile = Bundler::LockfileParser.new(Bundler.default_lockfile.read)
-  spring = lockfile.s
+  spring = lockfile.specs.detect { |spec| spec.name == "spring"
