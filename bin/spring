@@ -10,4 +10,6 @@ unless defined?(Spring)
   lockfile = Bundler::LockfileParser.new(Bundler.default_lockfile.read)
   spring = lockfile.specs.detect { |spec| spec.name == "spring" }
   if spring
-    Gem.use_paths Gem.dir, Bundler.bundle_path.to_s, *Gem.pat
+    Gem.use_paths Gem.dir, Bundler.bundle_path.to_s, *Gem.path
+    gem 'spring', spring.version
+    requ
