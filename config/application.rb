@@ -1,3 +1,5 @@
 require File.expand_path('../boot', __FILE__)
 
-r
+require 'rails/all'
+
+# Require the gems lis
