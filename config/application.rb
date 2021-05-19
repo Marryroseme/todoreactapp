@@ -7,4 +7,5 @@ require 'rails/all'
 Bundler.require(*Rails.groups)
 
 module Workspace
-  class Application < Rails::A
+  class Application < Rails::Application
+    # Settings in config/env
