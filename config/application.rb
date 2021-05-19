@@ -8,4 +8,5 @@ Bundler.require(*Rails.groups)
 
 module Workspace
   class Application < Rails::Application
-    # Settings in config/environments/* take precedence over those specifie
+    # Settings in config/environments/* take precedence over those specified here.
+    # Application configu
