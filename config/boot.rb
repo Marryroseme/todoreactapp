@@ -1,1 +1,1 @@
-ENV['BUNDLE_GEMFI
+ENV['BUNDLE_GEMFILE'] ||= File.expand_path('../../Gemf
