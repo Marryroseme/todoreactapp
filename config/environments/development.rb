@@ -1,1 +1,2 @@
-Rails.application.configure
+Rails.application.configure do
+  # Settings specified he
