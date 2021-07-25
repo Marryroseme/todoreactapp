@@ -27,4 +27,4 @@ Rails.application.configure do
   # number of complex assets.
   config.assets.debug = true
 
-  # Asset digests allow you to set far-fu
+  # Asset digests allow you to set far-future HTTP expiration dates on all a
