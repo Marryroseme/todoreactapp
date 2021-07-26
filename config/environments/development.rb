@@ -29,4 +29,6 @@ Rails.application.configure do
 
   # Asset digests allow you to set far-future HTTP expiration dates on all assets,
   # yet still be able to expire them through the digest params.
-  config.asset
+  config.assets.digest = true
+
+  # Adds additional err
