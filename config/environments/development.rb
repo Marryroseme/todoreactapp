@@ -31,4 +31,4 @@ Rails.application.configure do
   # yet still be able to expire them through the digest params.
   config.assets.digest = true
 
-  # Adds additional err
+  # Adds additional error checking when serving assets at 
