@@ -33,4 +33,5 @@ Rails.application.configure do
 
   # Adds additional error checking when serving assets at runtime.
   # Checks for improperly declared sprockets dependencies.
-  # Ra
+  # Raises helpful error messages.
+  config.assets.ra
