@@ -1,1 +1,3 @@
-# Be sure to restart your server when 
+# Be sure to restart your server when you modify this file.
+
+# Version of your a
