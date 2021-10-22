@@ -152,3 +152,44 @@ Devise.setup do |config|
   # config.confirmation_keys = [:email]
 
   # ==> Configuration for :rememberable
+  # The time the user will be remembered without asking for credentials again.
+  # config.remember_for = 2.weeks
+
+  # Invalidates all the remember me tokens when the user signs out.
+  config.expire_all_remember_me_on_sign_out = true
+
+  # If true, extends the user's remember period when remembered via cookie.
+  # config.extend_remember_period = false
+
+  # Options to be passed to the created cookie. For instance, you can set
+  # secure: true in order to force SSL only cookies.
+  # config.rememberable_options = {}
+
+  # ==> Configuration for :validatable
+  # Range for password length.
+  config.password_length = 6..128
+
+  # Email regex used to validate email formats. It simply asserts that
+  # one (and only one) @ exists in the given string. This is mainly
+  # to give user feedback and not to assert the e-mail validity.
+  config.email_regexp = /\A[^@\s]+@[^@\s]+\z/
+
+  # ==> Configuration for :timeoutable
+  # The time you want to timeout the user session without activity. After this
+  # time the user will be asked for credentials again. Default is 30 minutes.
+  # config.timeout_in = 30.minutes
+
+  # ==> Configuration for :lockable
+  # Defines which strategy will be used to lock an account.
+  # :failed_attempts = Locks an account after a number of failed attempts to sign in.
+  # :none            = No lock strategy. You should handle locking by yourself.
+  # config.lock_strategy = :failed_attempts
+
+  # Defines which key will be used when locking and unlocking an account
+  # config.unlock_keys = [:email]
+
+  # Defines which strategy will be used to unlock an account.
+  # :email = Sends an unlock link to the user email
+  # :time  = Re-enables login after a certain amount of time (see :unlock_in below)
+  # :both  = Enables both strategies
+  # :none  = No unlock strategy. You should handle unlocking by yourself.
