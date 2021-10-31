@@ -1,1 +1,3 @@
-# Be sure to restart your server when you modify thi
+# Be sure to restart your server when you modify this file.
+
+# Configure sensiti
