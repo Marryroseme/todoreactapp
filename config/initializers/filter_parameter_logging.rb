@@ -1,3 +1,3 @@
 # Be sure to restart your server when you modify this file.
 
-# Configure sensiti
+# Configure sensitive parameters which will be filtered from
