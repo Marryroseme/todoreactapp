@@ -1,3 +1,3 @@
 # Be sure to restart your server when you modify this file.
 
-# Add new inflectio
+# Add new inflection rules using the following format. Infle
