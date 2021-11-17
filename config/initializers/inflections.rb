@@ -5,4 +5,5 @@
 # locales as you wish. All of these examples are active by default:
 # ActiveSupport::Inflector.inflections(:en) do |inflect|
 #   inflect.plural /^(ox)$/i, '\1en'
-#   inflect.singular
+#   inflect.singular /^(ox)en/i, '\1'
+#   inflect.irregul
