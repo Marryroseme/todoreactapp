@@ -10,4 +10,4 @@
 #   inflect.uncountable %w( fish sheep )
 # end
 
-# These i
+# These inflection rules are supported but n
