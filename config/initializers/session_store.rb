@@ -1,1 +1,1 @@
-# Be sure to restart your 
+# Be sure to restart your server when you modify thi
