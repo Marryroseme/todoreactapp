@@ -6,4 +6,8 @@
 #
 #     I18n.t 'hello'
 #
-# In views, this is aliased to 
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a di
