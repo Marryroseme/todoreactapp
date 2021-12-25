@@ -14,4 +14,4 @@
 #
 #     I18n.locale = :es
 #
-# This would u
+# This would use the information in config/locales/e
