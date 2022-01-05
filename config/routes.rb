@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
  
   resources :cryptos
-  devi
+  devise_for :users
+  get 'home/about'
+  g
