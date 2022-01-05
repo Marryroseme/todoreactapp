@@ -1,1 +1,4 @@
-Rails.applicati
+Rails.application.routes.draw do
+ 
+  resources :cryptos
+  devi
