@@ -7,4 +7,4 @@ Rails.application.routes.draw do
   post "/home/search" => 'home/search'
   root 'home#index'
 
-  # The priority is based upon order of creatio
+  # The priority is based upon order of creation: first created -> highest prio
