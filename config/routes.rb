@@ -14,4 +14,6 @@ Rails.application.routes.draw do
   # root 'welcome#index'
 
   # Example of regular route:
-  #   get 
+  #   get 'products/:id' => 'catalog#view'
+
+  # Ex
