@@ -16,4 +16,4 @@ Rails.application.routes.draw do
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
-  # Ex
+  # Example of named route that can be 
