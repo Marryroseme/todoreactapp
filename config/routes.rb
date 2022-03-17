@@ -33,3 +33,5 @@ Rails.application.routes.draw do
   #       get 'sold'
   #     end
   #   end
+
+  # Example resource route wi
