@@ -40,4 +40,5 @@ Rails.application.routes.draw do
   #     resource :seller
   #   end
 
-  # Example resource route with more complex sub
+  # Example resource route with more complex sub-resources:
+  #   resources :product
