@@ -45,4 +45,7 @@ Rails.application.routes.draw do
   #     resources :comments
   #     resources :sales do
   #       get 'recent', on: :collection
-  #    
+  #     end
+  #   end
+
+  # Example resource route wi
