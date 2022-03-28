@@ -44,4 +44,5 @@ Rails.application.routes.draw do
   #   resources :products do
   #     resources :comments
   #     resources :sales do
-  #   
+  #       get 'recent', on: :collection
+  #    
