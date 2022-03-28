@@ -43,4 +43,5 @@ Rails.application.routes.draw do
   # Example resource route with more complex sub-resources:
   #   resources :products do
   #     resources :comments
-  #  
+  #     resources :sales do
+  #   
