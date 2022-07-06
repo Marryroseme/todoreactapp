@@ -1,1 +1,3 @@
-# frozen_string_lite
+# frozen_string_literal: true
+
+class DeviseCreateUsers < Ac
