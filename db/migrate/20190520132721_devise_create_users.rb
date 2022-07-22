@@ -23,4 +23,6 @@ class DeviseCreateUsers < ActiveRecord::Migration
 
       ## Confirmable
       # t.string   :confirmation_token
-      # t.datetime :conf
+      # t.datetime :confirmed_at
+      # t.datetime :confirmation_sent_at
+  
