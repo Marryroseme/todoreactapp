@@ -27,4 +27,5 @@ class DeviseCreateUsers < ActiveRecord::Migration
       # t.datetime :confirmation_sent_at
       # t.string   :unconfirmed_email # Only if using reconfirmable
 
-      ## Lockab
+      ## Lockable
+      # t.integer  :failed_attempts
