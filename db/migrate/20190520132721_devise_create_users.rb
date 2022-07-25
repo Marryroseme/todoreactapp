@@ -33,4 +33,7 @@ class DeviseCreateUsers < ActiveRecord::Migration
       # t.datetime :locked_at
 
 
-      t.timestam
+      t.timestamps null: false
+    end
+
+    add_index 
