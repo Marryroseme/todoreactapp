@@ -1,1 +1,2 @@
-class CreateCryptos < 
+class CreateCryptos < ActiveRecord::Migration
+  def
