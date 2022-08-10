@@ -1,2 +1,3 @@
 class CreateCryptos < ActiveRecord::Migration
-  def
+  def change
+    create_table :cryptos do |
