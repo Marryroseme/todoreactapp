@@ -2,4 +2,6 @@ class CreateCryptos < ActiveRecord::Migration
   def change
     create_table :cryptos do |t|
       t.string :symbol
-      t.
+      t.integer :user_id
+      t.decimal :cost_per
+ 
