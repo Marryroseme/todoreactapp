@@ -4,4 +4,6 @@ class CreateCryptos < ActiveRecord::Migration
       t.string :symbol
       t.integer :user_id
       t.decimal :cost_per
- 
+      t.decimal :amount_owned
+
+      t
