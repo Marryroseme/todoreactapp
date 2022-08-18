@@ -8,4 +8,6 @@ class CreateCryptos < ActiveRecord::Migration
 
       t.timestamps null: false
     end
-    add_inde
+    add_index :cryptos, :user_id
+  end
+end
