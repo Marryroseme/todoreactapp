@@ -7,4 +7,4 @@
 # database schema. If you need to create the application database on another
 # system, you should be using db:schema:load, not running all the migrations
 # from scratch. The latter is a flawed and unsustainable approach (the more migrations
-# you'll amass, th
+# you'll amass, the slower it'll run and the greater likelihood fo
