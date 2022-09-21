@@ -13,4 +13,4 @@
 
 ActiveRecord::Schema.define(version: 20190520162048) do
 
-  crea
+  create_table "cryptos", force: :c
