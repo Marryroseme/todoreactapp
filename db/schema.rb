@@ -14,4 +14,6 @@
 ActiveRecord::Schema.define(version: 20190520162048) do
 
   create_table "cryptos", force: :cascade do |t|
-    t.string   "symbo
+    t.string   "symbol"
+    t.integer  "user_id"
+    t.
