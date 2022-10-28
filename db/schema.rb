@@ -19,4 +19,7 @@ ActiveRecord::Schema.define(version: 20190520162048) do
     t.decimal  "cost_per"
     t.decimal  "amount_owned"
     t.datetime "created_at",   null: false
-    t.datetime "updated_at",
+    t.datetime "updated_at",   null: false
+  end
+
+  add_index "cry
