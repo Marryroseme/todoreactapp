@@ -22,4 +22,6 @@ ActiveRecord::Schema.define(version: 20190520162048) do
     t.datetime "updated_at",   null: false
   end
 
-  add_index "cryptos", ["user_id"], name: "index_c
+  add_index "cryptos", ["user_id"], name: "index_cryptos_on_user_id"
+
+  create_table "users
