@@ -25,4 +25,4 @@ ActiveRecord::Schema.define(version: 20190520162048) do
   add_index "cryptos", ["user_id"], name: "index_cryptos_on_user_id"
 
   create_table "users", force: :cascade do |t|
-    t.string   "
+    t.string   "email",                  default: "", null: false
