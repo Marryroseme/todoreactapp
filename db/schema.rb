@@ -30,4 +30,4 @@ ActiveRecord::Schema.define(version: 20190520162048) do
     t.string   "reset_password_token"
     t.datetime "reset_password_sent_at"
     t.datetime "remember_created_at"
-    t
+    t.datetime "created_at",        
