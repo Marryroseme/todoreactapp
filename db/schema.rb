@@ -31,4 +31,7 @@ ActiveRecord::Schema.define(version: 20190520162048) do
     t.datetime "reset_password_sent_at"
     t.datetime "remember_created_at"
     t.datetime "created_at",                          null: false
-    t.datetime "updated_at",                          null: fal
+    t.datetime "updated_at",                          null: false
+  end
+
+  add_index "users", ["email"
