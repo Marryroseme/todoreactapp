@@ -1,1 +1,1 @@
-# This file should contain all the record creation 
+# This file should contain all the record creation needed to seed the database with its default valu
