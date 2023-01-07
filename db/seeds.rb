@@ -3,4 +3,5 @@
 #
 # Examples:
 #
-#   cities = City.create([{ name: 'Chicago' }, {
+#   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
+#   M
