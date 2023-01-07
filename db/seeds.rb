@@ -3,4 +3,4 @@
 #
 # Examples:
 #
-#   cities = Ci
+#   cities = City.create([{ name: 'Chicago' }, {
