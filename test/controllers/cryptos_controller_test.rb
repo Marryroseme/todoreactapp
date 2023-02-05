@@ -47,3 +47,4 @@ class CryptosControllerTest < ActionController::TestCase
 
     assert_redirected_to cryptos_path
   end
+end
