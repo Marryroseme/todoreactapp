@@ -1,3 +1,3 @@
 require 'test_helper'
 
-class HomeCon
+class HomeControllerTest < ActionController::Test
