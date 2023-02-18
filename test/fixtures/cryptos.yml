@@ -1,0 +1,14 @@
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  symbol: MyString
+  user_id: 1
+  cost_per: 9.99
+  amount_owned: 9.99
+
+two:
+  symbol: MyString
+  user_id: 1
+  cost_per: 9.99
+  amount_owned: 9.99
