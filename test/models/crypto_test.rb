@@ -1,4 +1,7 @@
 require 'test_helper'
 
 class CryptoTest < ActiveSupport::TestCase
-  # test "the truth" 
+  # test "the truth" do
+  #   assert true
+  # end
+e
