@@ -1,3 +1,4 @@
 require 'test_helper'
 
-class CryptoTest < ActiveSuppor
+class CryptoTest < ActiveSupport::TestCase
+  # test "the truth" 
