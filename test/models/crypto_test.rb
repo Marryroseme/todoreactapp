@@ -1,1 +1,3 @@
-require 't
+require 'test_helper'
+
+class CryptoTest < ActiveSuppor
