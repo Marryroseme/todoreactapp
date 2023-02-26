@@ -3,4 +3,4 @@ require File.expand_path('../../config/environment', __FILE__)
 require 'rails/test_help'
 
 class ActiveSupport::TestCase
-  # Setup all f
+  # Setup all fixtures in test/fixtures/*.yml 
